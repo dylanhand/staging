@@ -2,7 +2,7 @@ title: Dylan Hand
 subtitle:
 logo: # you can add own logo.
 description: Homepage of Dylan Hand.
-# baseurl: "/derrick" # the subpath of your site, e.g. /blog
+baseurl: "/staging" # the subpath of your site, e.g. /blog
 url: "http://dylanhand.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 
