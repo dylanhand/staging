@@ -1,0 +1,88 @@
+title: Dylan Hand
+subtitle:
+logo: # you can add own logo.
+description: Homepage of Dylan Hand.
+# baseurl: "/derrick" # the subpath of your site, e.g. /blog
+url: "http://dylanhand.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Author Settings
+author:
+  name: Dylan Hand
+  tagline: apps & raps
+  image: '/assets/img/profile-pic.jpg'
+  bio: Listen to the new single <a href="https://songwhip.com/dylanhand/why-not">"Why Not"</a>
+  email: dylan.hand@gmail.com
+
+
+# Contact links
+contact:
+  - name: Instagram
+    link: https://instagram.com/dylanhand
+    icon: instagram
+  - name: Twitter
+    link: https://twitter.com/dylanhand
+    icon: twitter
+  - name: Spotify
+    link: https://open.spotify.com/artist/5jf6ZqP5NcRcNlyeqcbYWt?si=DSNjmhwsSDWYs2hrE9WmTg
+    icon: spotify
+  - name: Apple Music
+    link: https://music.apple.com/us/artist/dylan-hand/1525131681
+    icon: itunes
+  - name: SoundCloud
+    link: https://soundcloud.com/dylanhand
+    icon: soundcloud
+  - name: YouTube
+    link: https://www.youtube.com/channel/UCc5OZ-O78NcvLi2XVWf6KpA
+    icon: youtube
+      # - name: Facebook
+      # link: https://facebook.com/dylan.hand
+      # icon: facebook
+  # - name: LinkedIn
+    # link: https://linkedin.com/in/dylanhand
+    # icon: linkedin2
+
+
+# Comment Section (Disqus)
+disqus-identifier: # mr-brown # add your shortname for Disqus Comment. For example mr-brown
+
+
+# Google Analytics
+google-analytics: UA-98310496-1 # add your identifier. For example UA-99631805-1.
+
+images-path: /assets/img/
+thumbnails-path: /assets/img/thumbs/
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+  - jekyll/tagging
+  - jekyll-redirect-from
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag-page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
