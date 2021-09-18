@@ -56,13 +56,13 @@ GithubUserName   = 'dylanhand'
 
 # Github target repository
 # you must be allowed to contribute to this repository
-GithubRepository = 'dylanhand.github.io'
+GithubRepository = 'staging'
 
 # User / Organization sources branch
 UODefaultSourceBranch = 'source'
 
 # Project repository sources branch
-PDefaultSourceBranch = 'master'
+PDefaultSourceBranch = 'main'
 
 # repository remote name
 GithubRepositoryRemoteName = 'origin'
